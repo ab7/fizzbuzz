@@ -24,6 +24,7 @@ $(function() {
       } else {
         $('#error').fadeIn().finish().fadeOut(2000);
       }
+      $(this).val("");
     } 
   }); 
 })
